@@ -1,0 +1,1 @@
+maths+pysics+chemestry+english+computer
