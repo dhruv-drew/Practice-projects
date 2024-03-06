@@ -1,0 +1,159 @@
+@font-face {
+    font-family: re;
+    src: url(/Rejouice-Headline.ttf);
+}
+@font-face {
+    font-family: mainFont;
+    src: url(/NBInternationalProBoo.ttf);
+}
+  
+  
+  
+#main{
+    width: 100%;
+    /* background-color: black; */
+    font-family: "mainFont";
+    overflow-x: hidden;
+}
+.page1{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #000;
+}
+
+.page1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.page1-content{
+    height: 100%;
+    width: 100%;
+    /* background-color: #000; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+nav{
+    /* height: 100px; */
+    width: 100%;
+    padding: 3vw 3.3vw;
+}
+.nav-part1{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    color: #fff;
+}
+.nav-part1 h2, h3{
+    cursor: pointer;
+}
+
+
+.page1-content h1 span{
+    font-family: "re";
+    font-size: 27vw;
+    color: #fff;
+    /* margin-bottom: 0; */
+    line-height: 80%;
+    /* background-color: #ff5f38; */
+}
+
+
+.curser{
+    height:7vw;
+    width: 7vw;
+    background-color: #ff5f38;
+    position: absolute;
+    z-index: 9;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    transform: translate(-50%,-50%);
+}
+
+.page2{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    padding: 3%;
+    margin-bottom: 20%;
+}
+.span{
+    font-size: 4vw;
+}
+
+.page2-r1{
+    height: 120px;
+    width: 100%;
+    border-bottom: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    /* font-size: 1vw; */
+}
+
+.page2-r1 h3{
+    font-size: 1.5vw;
+}
+
+.page3{
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid;
+    padding: 0 3%;
+}
+
+.brands{
+    height: 85%;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.brands-box{
+    height: 100%;
+    width: 32.5%;
+    padding: 0;
+    position: relative;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.brands-box video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    /* z-index: 1; */
+}
+
+.brands-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    /* transition: 0.6s; */
+    /* z-index: 2; */
+}
+
+.brands-box:hover img{
+    opacity: 0;
+    display: none;
+    transition: 0.5s;
+}
+
