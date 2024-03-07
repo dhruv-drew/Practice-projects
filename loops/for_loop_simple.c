@@ -2,10 +2,12 @@
 int main()
 {
 
-    for (int i = 0; i >= 100; i=i + 1)
+    int i;
+    for ( i = 0; i <=100; i++)
     {
-        printf("hello \n");
+        /* code */
+        printf("%d\n",i);
     }
-
+    
     return 0;
 }
